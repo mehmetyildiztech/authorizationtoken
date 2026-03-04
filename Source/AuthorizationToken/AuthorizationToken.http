@@ -1,0 +1,6 @@
+@AuthorizationToken_HostAddress = http://localhost:5123
+
+GET {{AuthorizationToken_HostAddress}}/paymentinfo/payments
+Accept: application/json
+
+###

@@ -1,0 +1,18 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=AuthorizationTokenDb;Trusted_Connection=True;MultipleActiveResultSets=true"
+  },
+  "JwtSettings": {
+    "SecretKey": "YourDevelopmentSecretKeyWith32CharactersMinimum!",
+    "Issuer": "yourapp-dev",
+    "Audience": "yourapp-dev",
+    "AccessTokenExpirationMinutes": 60,
+    "RefreshTokenExpirationDays": 7
+  }
+}
